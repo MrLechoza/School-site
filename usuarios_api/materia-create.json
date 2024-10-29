@@ -1,0 +1,51 @@
+[
+{
+  "nombre": "Lengua",
+  "descripcion": "Estudio de la lengua y la literatura.",
+  "nivel_escolar": "Primer Año"
+},
+{
+  "nombre": "Ciencias",
+  "descripcion": "Estudio de los fenómenos naturales.",
+  "nivel_escolar": "Primer Año"
+},
+{
+  "nombre": "Educación Física",
+  "descripcion": "Actividades físicas para el desarrollo de la salud.",
+  "nivel_escolar": "Primer Año"
+},
+{
+  "nombre": "Inglés",
+  "descripcion": "Estudio del idioma inglés.",
+  "nivel_escolar": "Segundo Año"
+},
+{
+  "nombre": "Ciencias Sociales",
+  "descripcion": "Estudio de la sociedad y sus fenómenos.",
+  "nivel_escolar": "Segundo Año"
+},
+{
+  "nombre": "Música",
+  "descripcion": "Estudio de la teoría y práctica musical.",
+  "nivel_escolar": "Segundo Año"
+},
+{
+  "nombre": "Educación Cívica",
+  "descripcion": "Estudio de los deberes y derechos ciudadanos.",
+  "nivel_escolar": "Segundo Año"
+},
+{
+  "nombre": "Francés",
+  "descripcion": "Estudio del idioma francés.",
+  "nivel_escolar": "Tercer Año"
+},
+{
+  "nombre": "Ciencias Naturales",
+  "descripcion": "Estudio de la biología, química y física.",
+  "nivel_escolar": "Tercer Año"
+},
+{
+  "nombre": "Informática",
+  "descripcion": "Estudio de la tecnología de la información.",
+  "nivel_escolar": "Tercer Año"
+}]

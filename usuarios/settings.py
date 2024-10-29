@@ -48,7 +48,7 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    #'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -133,11 +133,15 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
         'rest_framework.authentication.TokenAuthentication',
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
 }
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173'
+]
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:5173',
 ]
 CORS_ALLOW_METHODS = [
     'GET',
@@ -165,3 +169,11 @@ CORS_ALLOW_CREDENTIALS = True
 
 
 AUTH_USER_MODEL = 'usuarios_api.UserProfile'
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'crowshadow123@gmail.com'
+EMAIL_HOST_PASSWORD = 'igyi nzzf cblt qvih'
+
+
